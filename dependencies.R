@@ -15,7 +15,7 @@
     # get devtools if needed
     if(!.is.package.installed("devtools")){install.packages("devtools")}
     require("devtools")
-    install_github("mabafaba/reachR",ref = branch, auth_token = "dda123a51bd8fc6c2d0c47208ba6df17abee8b82")
+    install_github("mabafaba/reachR2",ref = branch)
     # unload devtools
     detach("package:devtools", unload=TRUE)
     if(reinstall_if_exists){
